@@ -1,0 +1,27 @@
+* {
+    margin: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+header {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    
+}
+
+.body {
+    width: 300px;
+    border: 15px solid rgb(9, 228, 228);
+    padding: 50px;
+    
+}
+
+footer {
+    width: 300px;
+    border: 15px solid rgb(225, 60, 5);
+    padding: 50px;
+   
+}
