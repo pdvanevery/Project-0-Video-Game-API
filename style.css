@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 3rem;
     text-align: center;
     margin: 3% auto;
@@ -41,4 +41,37 @@ input {
     background-color: white;
     border: 1px solid black;
     border-radius: 12px;
+}
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.header {
+    width: 100%;
+    padding: 5rem;
+    background-color: rgb(92, 155, 92);
+    text-align: center;
+    border: 2px solid lightgreen;
+}
+
+.search {
+    width: 100%;
+    padding: 5rem;
+    background-color: rgb(147, 125, 206);
+    text-align: center;
+    border: 2px solid lightgreen;
+}
+
+.footer {
+    width: 100%;
+    padding: 5rem;
+    background-color: rgb(197, 107, 158);
+    text-align: center;
+    border: 2px solid lightgreen;
 }
