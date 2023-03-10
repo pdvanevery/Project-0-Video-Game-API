@@ -38,3 +38,22 @@ body {
 img {
     height: 200px;
 }
+
+input {
+    height: 2rem;
+    border-radius: 13px;
+    text-align: center;
+}
+
+button {
+    height: 2rem;
+    width: 5rem;
+    border-radius: 13px;
+    background-color: rgb(162, 161, 161);
+    border: rgb(162, 161, 161);
+}
+
+button:hover {
+    background-color: blue;
+    border: blue;
+}
