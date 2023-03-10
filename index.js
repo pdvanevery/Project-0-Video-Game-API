@@ -23,6 +23,12 @@ function fetchPokemon(){
             <h1>${capitalizeFirstLetter(data.name)}</h1> 
             <h2>${capitalizeFirstLetter(data.types[0].type.name)}</h2>
             <img src="${data.sprites.other["official-artwork"].front_default}" alt="${capitalizeFirstLetter(data.name)}"/>
+            <h3>HP: ${data.stats[0].base_stat}</h3>
+            <h3>Attack: ${data.stats[1].base_stat}</h3>
+            <h3>Defense: ${data.stats[2].base_stat}</h3>
+            <h3>Special Attack: ${data.stats[3].base_stat}</h3>
+            <h3>Special Defense: ${data.stats[4].base_stat}</h3>
+            <h3>Speed: ${data.stats[5].base_stat}</h3>
             `
         
 })} 
