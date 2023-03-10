@@ -75,3 +75,7 @@ input {
     text-align: center;
     border: 2px solid lightgreen;
 }
+
+img {
+    height: 200px;
+}
