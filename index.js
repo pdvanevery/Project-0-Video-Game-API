@@ -21,6 +21,7 @@ function fetchPokemon(){
         .then(data => {console.log(data)
             document.querySelector('#pokecard').innerHTML = `
             <h1>${capitalizeFirstLetter(data.name)}</h1> 
+            <h2>${capitalizeFirstLetter(data.types[0].type.name)}</h2>
             <img src="${data.sprites.other["official-artwork"].front_default}" alt="${capitalizeFirstLetter(data.name)}"/>
             `
         
