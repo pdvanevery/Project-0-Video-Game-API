@@ -1,11 +1,26 @@
-let btn = document.querySelector("#btn");
-let div = document.querySelector("#name");
 
-btn.addEventListener('click', getPokemon)
+function fetchPokemon(){
 
-function getPokemon() {
+fetch("https://pokeapi.co/api/v2/pokemon/mudkip")
+    .then(res => res.json())
+    .then(data => {console.log(data)
+        document.querySelector('#name').innerHTML = `<h1>${data.name}</h1>`
+    })} 
 
-    fetch("https://pokeapi.co/api/v2/pokemon/ditto")
-    .then((res) => res.json())
-    .then((data) => console.log(data))
-}
+
+    fetchPokemon()
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
