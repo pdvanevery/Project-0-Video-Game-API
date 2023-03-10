@@ -57,3 +57,27 @@ button:hover {
     background-color: blue;
     border: blue;
 }
+
+
+.pokeInfoCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameCard {
+    border: solid 8px lightblue;
+    border-radius: 20px;
+    background-color: white;
+    width: 15rem;
+    align-items: center;
+}
+
+.stats {
+    border: solid 8px rgb(199, 9, 9);
+    border-radius: 20px;
+    background-color: rgb(230, 227, 227);
+    width: 15rem;
+    align-items: center;
+}
